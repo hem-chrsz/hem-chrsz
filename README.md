@@ -1,16 +1,61 @@
-### Hi there 👋
+### Olá, me chamo Hemilly e sou Desenvolvedora Front-End!!
 
-<!--
-**hem-chrsz/hem-chrsz** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- 🔭 Hoje trabalho com Front-End.
+- 🌱 Cursando Sistemas de Informação.
+- 💬 Contate me no email: hemellychristinne17@gmail.com
+- 😄 Pronouns: ela/dela.
+- ⚡ Idade: 20 anos.
 
-Here are some ideas to get you started:
+ <div>
+  <a href="https://github.com/hem-chrsz">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=hem-chrsz&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true"/>
+  
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=hem-chrsz&layout=compact&langs_count=7&theme=midnight-purple"/>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+ ![Streak](https://streak-stats.demolab.com/?user=hem-chrsz&theme=midnight-purple)
+ 
+
+![Snake animation](https://github.com/JoaoIto/JoaoIto/blob/output/github-contribution-grid-snake.svg)
+
+ ## Techs:
+    
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![TypeScript](https://img.shields.io/npm/types/typescript?label=%7C&logo=typescript&style=for-the-badge)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+    
+ ## Social:
+   
+  <a href="https://instagram.com/hem_chrsz?igshid=YjNmNGQ3MDY=" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+   <a href = "mailto:hemellychristinne17@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+  <a href="https://www.linkedin.com/in/hemilly-christinne-401b25255" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+  
+    
+```ts
+interface IUser {
+  name: string;
+  age: number;
+  code: string[];
+  dev: (coffee: string, music: string) => string;
+}
+
+class User implements IUser {
+  public name: string;
+  public age: number;
+  public code: string[];
+  public dev: (coffee: string, music: string) => string;
+
+  constructor(name: string, age: number, code: string[], dev: (coffee: string, music: string) => string) {
+    this.name = name;
+    this.age = age;
+    this.code = code;
+    this.dev = dev;
+  }
+}
+
+const user = new User('Joao', 17, ['JavaScript', 'TypeScript', 'Java', 'Python'], (coffee: string, music: string) => {
+  return `Coding with ${coffee} and ${music}!`;
+});
+```

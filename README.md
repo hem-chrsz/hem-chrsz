@@ -4,7 +4,7 @@
 - 🌱 Cursando Sistemas de Informação.
 - 💬 Contate me no email: hemellychristinne17@gmail.com
 - 😄 Pronouns: ela/dela.
-- ⚡ Idade: 20 anos.
+- ⚡ Idade: 21 anos.
 
  <div>
   <a href="https://github.com/hem-chrsz">
